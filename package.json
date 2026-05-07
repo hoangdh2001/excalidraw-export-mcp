@@ -8,7 +8,8 @@
   },
   "scripts": {
     "start": "node index.js",
-    "install-browser": "npx playwright install chromium"
+    "install-browser": "npx playwright install chromium",
+    "test": "node test.js"
   },
   "dependencies": {
     "@modelcontextprotocol/sdk": "^1.0.0",

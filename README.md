@@ -7,7 +7,7 @@ MCP server for exporting `.excalidraw` files to **PNG**, **JPG**, and **SVG** â€
 ### 1. Install dependencies
 
 ```bash
-cd /Users/hoangdo/.obsidian/tiemhoamotdoathangba/excalidraw-export-mcp
+cd /path/to/excalidraw-export-mcp
 npm install
 npx playwright install chromium
 ```
@@ -21,7 +21,7 @@ Open `~/Library/Application Support/Claude/claude_desktop_config.json` and add:
   "mcpServers": {
     "excalidraw-export": {
       "command": "node",
-      "args": ["/Users/hoangdo/.obsidian/tiemhoamotdoathangba/excalidraw-export-mcp/index.js"]
+      "args": ["/path/to/excalidraw-export-mcp/index.js"]
     }
   }
 }
