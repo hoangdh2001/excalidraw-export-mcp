@@ -1,0 +1,22 @@
+{
+  "name": "excalidraw-export-mcp",
+  "version": "1.0.0",
+  "description": "MCP server for exporting Excalidraw diagrams to PNG, JPG, and SVG with authentic Virgil font and rough.js rendering",
+  "main": "index.js",
+  "bin": {
+    "excalidraw-export-mcp": "./index.js"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "install-browser": "npx playwright install chromium"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0",
+    "playwright": "^1.40.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "keywords": ["mcp", "excalidraw", "export", "diagram", "svg", "png"],
+  "license": "MIT"
+}
